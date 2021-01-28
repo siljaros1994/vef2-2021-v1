@@ -93,7 +93,10 @@ Skila skal í Canvas í seinasta lagi fyrir lok dags miðvikudaginn 3. febrúar 
 
 Skilaboð skulu innihalda slóð á GitHub repo fyrir verkefni, og dæmatímakennurum skal hafa verið boðið í repo ([sjá leiðbeiningar](https://docs.github.com/en/free-pro-team@latest/github/setting-up-and-managing-your-github-user-account/inviting-collaborators-to-a-personal-repository)). Notendanöfn þeirra eru:
 
-TBD
+* `jonnigs`
+* `mimiqkz`
+* `Steinalicious`
+* `zurgur`
 
 Hver dagur eftir skil dregur verkefni niður um 10%, allt að 20% ef skilað laugardaginn 6. febrúar 2020 en þá lokar fyrir skil.
 
