@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fræðslumyndbandaleigan</title>
+    <link rel="stylesheet" href="grid-overlay.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="grid">
+      <div id="title">
+      </div>
+      <div class="col col-12 col-md-12">
+        <div class="video_image_pc">
+            <img id="playBtn" class="playBtn" src="./img/play.svg" alt="play playBtn" />
+          <video id="videoToPlay">
+          </video>
+        </div>
+      </div>
+      <div>
+        <div class="row">
+          <div class="col col-12">
+            <div class ="video_controler">
+              <div class="video_button" onclick="videoBack()">
+                <img src="img/back.svg">
+              </div>
+              <div class="video_button" onclick="videoPlayPause()">
+                <img id="play_pause" src="img/play.svg">
+              </div>
+              <div class="video_button" onclick="videoMute()">
+                <img id ="mute_unmute" src="img/mute.svg">
+              </div>
+              <div class="video_button" onclick="videoFullscreen()">
+                <img src="img/fullscreen.svg">
+              </div>
+              <div class="video_button" onclick="videoNext()">
+                <img src="img/next.svg">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=video_info>
+        <div id="video_info">
+        </div>
+      </div>
+      <section class="tengd_myndbönd col-md-12 offset-col-md-1">
+        <h2>Tengd Myndbönd</h2>
+        <div id="tengd_myndbond" class="row">
+        </div>
+      </section>
+      <div class="grid">
+        <div class="row">
+          <div class="col offset-col-1 col-10">
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <a rel="stylesheet" href="index.html" >Til baka</a>
+      </footer>
+    </div>
+    <script type="text/javascript" src="./src/video.js"></script>
+  </body>
+</html>
