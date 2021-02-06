@@ -1,15 +1,7 @@
-<!doctype html>
-<html lang="is">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Fræðslumyndbandaleigan</title>
-    <link rel="stylesheet" href="grid-overlay.css">
-    <link rel="stylesheet" href="styles.css">
-  </head>
+<%- include('header') -%>
   <body>
-    <div class="grid">
-      <div id="title">
+    <section class="grid">
+        <h1><%= video.title %></h1>
       </div>
       <div class="col col-12 col-md-12">
         <div class="video_image_pc">
@@ -46,7 +38,7 @@
         </div>
       </div>
       <section class="tengd_myndbönd col-md-12 offset-col-md-1">
-        <h2>Tengd Myndbönd</h2>
+        <h2><%=Tengd Myndbönd%></h2>
         <div id="tengd_myndbond" class="row">
         </div>
       </section>
@@ -62,5 +54,7 @@
       </footer>
     </div>
     <script type="text/javascript" src="./src/video.js"></script>
+    </section>
   </body>
 </html>
+<%- include('footer') -%>
