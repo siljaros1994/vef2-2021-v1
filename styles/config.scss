@@ -1,0 +1,16 @@
+$max-width: 1290px;
+$columns: 12;
+$gutter: 20px;
+$bottom-margin: 2rem;
+
+$breakpoints: (
+  'small':  500px,
+  'medium': 1000px,
+) !default;
+@mixin respond-to($breakpoint) {
+    @if map-has-key($breakpoints, $breakpoint) {
+      @media (max-width: map-get($breakpoints, $breakpoint)) {
+        @content;
+      }
+    }
+}
